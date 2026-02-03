@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function WhyUs() {
     return (
-        <section className="section container">
+        <section id="why-us" className="section container">
             <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem' }}>
-                <div>
+                <div className="fade-in-section is-visible">
                     <h2 className="mb-lg">Por qué Codemind</h2>
                     <ul style={{ fontSize: '1.125rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                         {[

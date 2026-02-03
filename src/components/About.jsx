@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function About() {
   return (
-    <section className="section container">
-      <div className="text-center mb-xl">
+    <section id="about" className="section container">
+      <div className="text-center mb-xl fade-in-section is-visible">
         <h2 className="mb-md">Pensar antes de codear.</h2>
         <div style={{ maxWidth: '800px', margin: '0 auto' }}>
           <p className="mb-md">

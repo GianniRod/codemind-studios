@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Footer() {
     return (
-        <footer className="section" style={{ borderTop: '1px solid var(--border-light)', paddingBottom: '3rem' }}>
+        <footer id="contact" className="section" style={{ borderTop: '1px solid var(--border-light)', paddingBottom: '3rem' }}>
             <div className="container text-center">
-                <div className="mb-xl" style={{ maxWidth: '600px', margin: '0 auto 4rem auto' }}>
+                <div className="mb-xl fade-in-section is-visible" style={{ maxWidth: '600px', margin: '0 auto 4rem auto' }}>
                     <h2 className="mb-md">¿Tenés un proceso que hoy vive en Word, Excel o WhatsApp?</h2>
                     <p className="mb-lg">Hablemos y veamos cómo convertirlo en un sistema claro y funcional.</p>
                     <a href="#contact" className="btn btn-primary">👉 Agendar una llamada</a>
