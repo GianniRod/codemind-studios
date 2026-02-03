@@ -1,5 +1,6 @@
 import React from 'react';
 import heroImage from '../assets/hero_abstract_ui.png';
+import { ArrowRight, PlayCircle } from 'lucide-react';
 
 export default function Hero() {
     return (
@@ -13,8 +14,12 @@ export default function Hero() {
                     Diseñamos y construimos sistemas que ordenan procesos, reducen errores y ahorran tiempo.
                 </p>
                 <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-                    <a href="#contact" className="btn btn-primary">👉 Agendar una llamada</a>
-                    <a href="#services" className="btn btn-secondary">👉 Ver qué hacemos</a>
+                    <a href="#contact" className="btn btn-primary">
+                        Agendar una llamada <ArrowRight size={20} style={{ marginLeft: '8px' }} />
+                    </a>
+                    <a href="#services" className="btn btn-secondary">
+                        Ver qué hacemos <PlayCircle size={20} style={{ marginLeft: '8px' }} />
+                    </a>
                 </div>
             </div>
 
