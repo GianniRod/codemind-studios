@@ -1,29 +1,30 @@
 import React from 'react';
+import { Puzzle, MonitorCog, FileText, BarChart3, Rocket } from 'lucide-react';
 
 export default function Services() {
     const services = [
         {
-            icon: '🧩',
+            icon: <Puzzle size={48} strokeWidth={1} />,
             title: 'Software a medida',
             desc: 'Sistemas internos adaptados a tu forma de trabajar.'
         },
         {
-            icon: '⚙️',
+            icon: <MonitorCog size={48} strokeWidth={1} />,
             title: 'Automatización de procesos',
             desc: 'Menos tareas repetitivas, menos errores, más tiempo.'
         },
         {
-            icon: '📄',
+            icon: <FileText size={48} strokeWidth={1} />,
             title: 'Gestión y generación de documentos',
             desc: 'Plantillas inteligentes, datos centralizados, flujos claros.'
         },
         {
-            icon: '📊',
+            icon: <BarChart3 size={48} strokeWidth={1} />,
             title: 'Herramientas internas y backoffice',
             desc: 'CRMs simples, paneles de control y sistemas administrativos.'
         },
         {
-            icon: '🚀',
+            icon: <Rocket size={48} strokeWidth={1} />,
             title: 'MVPs y productos digitales',
             desc: 'Versiones funcionales para validar ideas rápido y bien.'
         }
