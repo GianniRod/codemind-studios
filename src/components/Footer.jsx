@@ -1,4 +1,5 @@
 import React from 'react';
+import { ArrowRight } from 'lucide-react';
 
 export default function Footer() {
     return (
@@ -7,7 +8,9 @@ export default function Footer() {
                 <div className="mb-xl fade-in-section is-visible" style={{ maxWidth: '600px', margin: '0 auto 4rem auto' }}>
                     <h2 className="mb-md">¿Tenés un proceso que hoy vive en Word, Excel o WhatsApp?</h2>
                     <p className="mb-lg">Hablemos y veamos cómo convertirlo en un sistema claro y funcional.</p>
-                    <a href="#contact" className="btn btn-primary">👉 Agendar una llamada</a>
+                    <a href="#contact" className="btn btn-primary">
+                        Agendar una llamada <ArrowRight size={20} style={{ marginLeft: '8px' }} />
+                    </a>
                 </div>
 
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '2rem', borderTop: '1px solid var(--border-light)', paddingTop: '2rem' }}>
