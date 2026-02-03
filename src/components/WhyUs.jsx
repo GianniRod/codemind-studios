@@ -1,4 +1,5 @@
 import React from 'react';
+import { CheckCircle2, User } from 'lucide-react';
 
 export default function WhyUs() {
     return (
@@ -15,7 +16,7 @@ export default function WhyUs() {
                             'Foco en negocio, no en buzzwords'
                         ].map((item, i) => (
                             <li key={i} style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                                <span style={{ color: 'var(--text-primary)' }}>✓</span> {item}
+                                <CheckCircle2 size={20} color="var(--text-primary)" /> {item}
                             </li>
                         ))}
                     </ul>
@@ -32,7 +33,7 @@ export default function WhyUs() {
                             'Startups en etapa temprana'
                         ].map((item, i) => (
                             <li key={i} style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                                <span style={{ color: 'var(--text-primary)' }}>•</span> {item}
+                                <User size={20} color="var(--text-primary)" /> {item}
                             </li>
                         ))}
                     </ul>
