@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import logo from '../assets/codemind_logo.png';
 
 export default function Navbar() {
     const [scrolled, setScrolled] = useState(false);
@@ -22,8 +23,8 @@ export default function Navbar() {
     return (
         <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
             <div className="container navbar-container">
-                <a href="#" className="logo">
-                    Codemind<span className="logo-accent">Studios</span>
+                <a href="#" className="logo-link">
+                    <img src={logo} alt="Codemind Studios" className="logo-img" />
                 </a>
 
                 {/* Desktop Menu */}
