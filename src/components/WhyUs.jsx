@@ -4,7 +4,7 @@ import { CheckCircle2, User } from 'lucide-react';
 export default function WhyUs() {
     return (
         <section id="why-us" className="section container">
-            <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem' }}>
+            <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
                 <div className="fade-in-section is-visible">
                     <h2 className="mb-lg">Por qué Codemind</h2>
                     <ul style={{ fontSize: '1.125rem', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
