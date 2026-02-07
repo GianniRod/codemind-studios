@@ -188,7 +188,8 @@ ul {
 }
 
 .logo-img {
-  height: 48px; /* Good size for navbar */
+  height: 48px;
+  /* Good size for navbar */
   width: auto;
   object-fit: contain;
 }
@@ -368,4 +369,40 @@ ul {
   border-radius: 12px;
   box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1.2s ease-out;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  :root {
+    --spacing-xxl: 4rem;
+    /* Reduce from 8rem to 4rem on mobile */
+    --spacing-xl: 3rem;
+    /* Reduce from 4rem to 3rem */
+    --container-padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    /* Ensure main title isn't too huge */
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .section {
+    padding: var(--spacing-xxl) 0;
+    /* Uses the redefined variable */
+  }
+
+  .grid {
+    gap: 2rem !important;
+    /* Force smaller gap on mobile */
+  }
+
+  .hero-split {
+    padding-top: 4rem;
+    /* Reduce top padding for hero */
+    gap: 2rem;
+  }
 }
