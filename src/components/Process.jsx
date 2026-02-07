@@ -28,7 +28,7 @@ export default function Process() {
         <section id="process" className="section" style={{ backgroundColor: 'var(--bg-secondary)' }}>
             <div className="container">
                 <h2 className="mb-xl text-center fade-in-section is-visible">Nuestro enfoque</h2>
-                <div style={{ display: 'grid', gap: '2rem', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))' }}>
+                <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))' }}>
                     {steps.map((step, index) => (
                         <div key={index} className="fade-in-section is-visible" style={{ position: 'relative', paddingLeft: '1rem', transitionDelay: `${index * 0.1}s` }}>
                             <span style={{ fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--text-secondary)', opacity: 0.3, display: 'block', marginBottom: '0.5rem' }}>
